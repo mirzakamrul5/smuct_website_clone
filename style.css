@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins" !important;
+}
+
+.bg-image{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) , url(SMUCT.jpg);
+    background-position: center top-0;
+    background-size: cover;
+    height: 120vh; 
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.786);
+    margin-top:30px;
+}
+
+/* .content span{
+    color: #ff7200;
+    font-size: 65px
+} */
+
+  .form {
+        width: 250px;
+        height: 380px;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.582)50%,rgba(0, 0, 0, 0.473)50%);
+        position: absolute; 
+        top: 25%;
+        left: 69%;
+        transform: translate(0%,-5%);
+        border-radius: 10px;
+        padding: 25px;
+        margin: 0 auto;
+  }
+
+
+.form h2{
+    width: 220px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.885);
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+#signup:hover {
+    color: ghostwhite !important;
+}
